@@ -7,7 +7,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { Svg, Rect, Circle, G, Path, Text as SvgText } from 'react-native-svg';
 
-const apiKey = 'AIzaSyAn27H6wswofcNJE68PTSTDq3tTJ3jCvPE';
+const apiKey = '';
 const genAI = new GoogleGenerativeAI(apiKey);
 const WORDS_PER_SECOND = 2.5;
 
